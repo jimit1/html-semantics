@@ -1,3 +1,7 @@
+/* for any screen larger than 600 px */
+
+@media screen and (min-width: 600px) {
+
 body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -55,4 +59,74 @@ footer {
     background-color: #3498db;
     height: 10vh;
   }
-  
+
+}
+
+/* For any screen smaller than 599 pixels */
+@media screen and (max-width: 599px) {
+  body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  nav {
+    background-color: #3498db;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav h1 {
+    color: white;
+    letter-spacing: 3px;
+  }
+
+  main {
+    background-color: #ecf0f1;
+    /* display: flex; */
+    min-height: 80vh;
+    overflow: scroll;
+    align-items: center;
+  }
+
+  .row-1 {
+    width: 100%;
+    /* display: flex; */
+  }
+
+  section {
+    /* width: 50%; */
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+  section img {
+    /* border-radius: 100%; */
+    width: 100%;
+  }
+
+  article {
+    color: #2c3e50;
+    /* align-self: flex-start;
+    width: 50%; */
+  }
+
+  article h2 {
+    color: #3498db;
+    margin: 0;
+    text-align: center;
+  }
+
+  article p {
+    padding: 40px;
+    padding-top: 10px;
+    line-height: 25px;
+  }
+
+  footer {
+    background-color: #3498db;
+    height: 10vh;
+  }
+}
